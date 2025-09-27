@@ -36,3 +36,10 @@
       name: "DIVYA Prasanna .g"
     ansible.builtin.debug:
       msg: "Hello {{ name | upper }}"    
+  
+  
+  - name: convert to lowercase
+    vars: 
+      name: "DIVYA Prasanna .g"
+    ansible.builtin.debug:
+      msg: "Hello {{ name | lower }}"
