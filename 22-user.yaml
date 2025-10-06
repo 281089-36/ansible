@@ -14,5 +14,5 @@
 
   - name: user already exist 
     ansible.builtin.debug: 
-    masg: "user alreday exist" 
+    msg: "user alreday exist" 
     when: output.rc ==0 # it means above task failure
