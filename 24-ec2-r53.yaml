@@ -6,7 +6,7 @@
     - mysql
     - backend
     - frontend
-    subnet-id: subnet-02cad1ddeb98f9750
+    subnet_id: subnet-02cad1ddeb98f9750
     sg_id: sg-0eb6592c7e3fa9596
   tasks:
   - name: create ec2
